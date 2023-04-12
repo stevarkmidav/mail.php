@@ -21,7 +21,7 @@ $mail->isSMTP();
 $mail->Host = 'smtp.gmail.com'; 
 $mail->SMTPAuth = true;                               
 $mail->Username = '@gmail.com';                 // Логин = почта               // Логин = почта
-$mail->Password = '';  // перейти по ссылке и сделать пароль   // Пароль от ящика
+$mail->Password = '';  // перейти по ссылке и сделать пароль  https://doc.camkubik.com/ru:info:smtp_passwords // Пароль от ящика
 $mail->SMTPSecure = 'ssl';                            
 $mail->Port = 465;                                   
  
