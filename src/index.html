@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ua">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mailer
+    </title>
+        <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+<body>
+    <header id="header" class="header">
+        <div class="subheader">
+            <div class="container">
+                <button class="subheader__btn">
+                    замовити дзвінок
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <div class="modal">
+        <div class="modal__form modal__form_request">
+            <div class="form__wrapper">
+                <form class="form__request form">
+                    <div class="form__request__close">
+                        <button class="form__request__btn">
+                            <img src="icons/close.png" alt="close" class="form__request__close-img">
+                        </button>
+                    </div>
+                    <input name="name" required placeholder="Ваше імʼя *" type="name" >
+                    <input name="email" required placeholder="Ваш E-mail *" type="email">
+                    <input name="phone" required placeholder="Ваш телефон *" type="text">
+                    <input name="city" required placeholder="Ваше місто *" type="text">
+                    <button class="form__btn">Відправити</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="modal__form modal__form_call">
+            <div class="form__wrapper">
+                <form class="form__call form">
+                    <div class="form__call__close">
+                        <button class="form__call__btn">
+                            <img src="icons/close.png" alt="close" class="form__call__close-img">
+                        </button>
+                    </div>
+                    <input name="phone" required placeholder="Ваш телефон *" type="text">
+                    <input name="city" required placeholder="Ваше місто *" type="text">
+                    <button class="form__btn">Передзвоніть мені</button>
+                </form>
+            </div>
+        </div>
+
+
+        <div class="modal__message__success">
+            <div class="modal__message__content">
+                <p>Дякую, ми скоро з вами звʼяжемось</p>
+            </div>
+        </div>
+        <div class="modal__message__error">
+            <div class="modal__message__content">
+                <p>Виникла помилка</p>
+            </div>
+        </div>
+    </div>
+    
+    <section id="promo" class="promo">
+        <div class="container">
+            <button class="promo__btn">ВІДПРАВИТИ ЗАЯВКУ!</button>
+        </div>
+    </section>
+
+    <section id="communication" class="communication">
+        <div class="container">
+            <div class="form">
+                <form action="#" class="form__questions">
+                    <input name="email" required placeholder="Ваш E-mail *" type="email">
+                    <input name="phone" required placeholder="Ваш телефон *" type="text">
+                    <input name="city" required placeholder="Ваше місто *" type="text">
+                    <textarea name="text" required placeholder="Мене цікавить... *" type="text"></textarea>
+                    <button class="form__btn">Відправити</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>

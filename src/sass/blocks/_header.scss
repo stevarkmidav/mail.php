@@ -1,0 +1,21 @@
+.subheader {
+    &__btn {
+        margin-top: 10px;
+        width: 172px;
+        height: 46px;
+        box-shadow: inset 0 -3px 0 rgba(0, 0, 0, 0.12);
+        border: none;
+        border-radius: 5px;
+        background-image: linear-gradient(to top, #1eacc7 0%, #4ce2ff 100%);
+        text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.21);
+        color: #ffffff;
+        font-size: 14px;
+        font-weight: 400;
+        text-transform: uppercase;
+        cursor: pointer;
+        transition: all .3s;
+        &:hover {
+            filter: brightness(.9);
+        }
+    }
+}
